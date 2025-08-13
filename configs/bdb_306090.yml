@@ -1,8 +1,14 @@
 
-train_path:   "../multifruit-data/data/processed/bdb/train.parquet"
-val_path:     "../multifruit-data/data/processed/bdb/val.parquet"
-test_path:    "../multifruit-data/data/processed/bdb/test.parquet"
-scaling_path: "../multifruit-data/data/interim/bdb/scaling_params.json"
+train_path:   '/Users/jroallanos/Desktop/2025 - PhD/2507 sample dataset/train_scaled.parquet'
+val_path:     '/Users/jroallanos/Desktop/2025 - PhD/2507 sample dataset/train_scaled.parquet'
+test_path:    '/Users/jroallanos/Desktop/2025 - PhD/2507 sample dataset/train_scaled.parquet'
+scaling_path: '/Users/jroallanos/Desktop/2025 - PhD/2507 sample dataset/scaling_params.json'
+
+# train_path:   "../multifruit-data/data/processed/bdb/train.parquet"
+# val_path:     "../multifruit-data/data/processed/bdb/val.parquet"
+# test_path:    "../multifruit-data/data/processed/bdb/test.parquet"
+# scaling_path: "../multifruit-data/data/interim/bdb/scaling_params.json"
+
 model_params:
   window_size: 7
   batch_size: 64
